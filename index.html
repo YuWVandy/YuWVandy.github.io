@@ -1,15 +1,155 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Project: Travel webpage</title>
-  </head>
-  <body>
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Yu Wang @ Vanderbilt</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <!-- Standard reset, fonts and grids -->
+  <link rel="stylesheet" type="text/css" href="styles/reset-fonts-grids.css">
+  <!-- CSS for Menu -->
+  <link rel="stylesheet" type="text/css" href="styles/menu.css">
+  <!-- Dependency source files -->
+  <script type="text/javascript" src="styles/yahoo-dom-event.js"></script>
+  <script type="text/javascript" src="styles/container_core.js"></script>
+  <!-- Menu source file -->
+  <script type="text/javascript" src="styles/menu.js"></script>
+  <!-- styles for the whole website -->
+  <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+  <!-- javascript for the menu -->
+  <script type="text/javascript">
+    YAHOO.util.Event.onContentReady("graphgardenmainmenu", function () {
+    var oMenu = new YAHOO.widget.Menu("graphgardenmainmenu", { position: "static", hidedelay:  0, lazyload: true }); oMenu.render(); });
+  </script>
+</head>
+
+<body class="yui-skin-sam" id="yahoo-com">
+  <div id="doc" class="yui-t1">
+  <div id="hd">
+    <div id="header">
+      <a href="https://engineering.vanderbilt.edu/">
+        <img id="vanderbilt-logo" src="images/vanderbiltlogo.png" alt="Vanderbilt University" />
+      </a>
+      <img id="networkscience-logo" src="images/networkscience.png" alt="Vanderbilt University" />
+    </div>
     
-    <h1>Travel to Costa Rica</h1>
+  </div>
+
+  <!-- START: right column -->
+  <div id="right-column">
+  <!--#include virtual="left_column.html" -->
+  <a href="images/yuwang2.jpg"><img id="yuwang-img" src="images/personalimage.png" alt="Yu Wang" /></a>
+  <div id="graphgardenmainmenu" class="yuimenu">
+    <div class="bd">
+      <ul class="first-of-type">
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="">Home</a></li>
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="">Publications</a></li>
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="">Talks &amp; Presentations</a></li>
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="">Research group</a></li>
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="">Project sightseeing</a></li>
+      <!--<li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="http://snap.stanford.edu/snap/">Network software</a></li>-->
+      <!--<li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="teaching.html">Teaching</a></li>-->
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="">Bio</a></li>
+      <!--<li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="press.html">Press</a></li>-->
+      <li class="yuimenuitem first-of-type"><a class="yuimenuitemlabel" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+  
+  <div id="graphgardenmainmenu" class="yuimenu">
+  <div class="bd" style="padding: 2px 4px 2px 4px; ">
+    Since Dr. Tyler Derr, just started 2020 Fall as an AP at Vanderbilt University, our NDSL group has several open research positions: <b><a href="https://www.cse.msu.edu/~derrtyle/openings.html">Master, undergraduate students as well as visiting scholars within VU are welcome.</a>
+  </div>
+  </div>
+  <br>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <a href="https://twitter.com/jure" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @jure</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <br>
+  <br>
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img id="wechatlogo" src="images/wechatscancode.png" alt="wechatyuwang" />
+  </div>
+  <!-- END: right column -->
+
+  <!-- START: left column -->
+  <div id="left-column">
+
+    <div class="call-out-purple">
+      <div style="font-size:36px; padding:13px 0px; font-family:Arial, Helvetica, sans-serif; font-weight:bold;";>Yu Wang</div>
+    </div>
+
+    <p>I have completed my first year of Ph.D. studying in <a href="https://engineering.vanderbilt.edu/cee/">Civil Engineering</a> at <a href="https://vanderbilt.edu">Vanderbilt University</a> mentored by <a href="http://hibabaroud.com">Dr. Baroud</a>. I am currently in the process of switching to <a href="https://engineering.vanderbilt.edu/eecs/">Computer Science</a> to be advisored by <a \href="https://www.cse.msu.edu/~derrtyle/">Dr. Tyler Derr</a>.
+    </p>
+    <p>
+    My research interest lies in the domains of applied-machine learning and data mining on graphs with an emphasis on deep learning on graphs. 
+    More specifically, I am currently researching graph neural networks (GNNs) focusing on ways to leverage various random walk techniques in both unsigned and signed networks (networks with both positive links and negative links).
+    In the future, I plan on investigating novel attention mechanisms at the feature and higher-order level and better harnessing temporal features in evolving networks, which have significant impact on learning better representations for tasks such as node classification, link prediction and community detection.
+    </p>
+    <p>
+    In my previous studying, I have been focused on developing network simulation framework to generate interdependent infrastructure networks and Bayesian inference approach to reconstruct network topology.
+    </p>
+    <br>
     
-    <p>...and you'll get to see these beauties!</p>
-    <img src = "heep://www.kasandbox.org/programming-images/animals/crocodiles/png" alt ="Scary crocodiles" width="200"/>
-  </body>
+    <!--<p>A <a href="http://videolectures.net/kdd09_leskovec_dln/">short video</a> presentation outlining my research.</p>-->
+
+    <h1>What's new</h1>
+    <ul>
+
+      <li class="R">Best Paper Award in <a href="https://smc-datachallenge.ornl.gov/">SMC Data Challenge 2020</a> Held virtual 2020 (August 25-27, Nashville, TN).</li>
+    </ul>
+
+    <h1>Latest publications</h1>
+    <ul>
+      <!--<li class="R">4 papers were accepted to WWW. PDFs will be available soon!</li>-->
+
+      <li class="R"><a href="https://www.rpsonline.com.sg/proceedings/esrel2020/html/4569.xml"> Quantifying the Interdependency Strength Across Critical Infrastructure Systems Using a Dynamic Network Flow Redistribution Model</a>. 
+      <i>ESREL 2020 PSAM 15</i>, November 1-5 2020.
+      </li>
+
+      <li class="R">Generating Synthetic Interdependent Infrastructure Networks. 
+      <b>To be submitted to</b> <i>IEEE System Journal</i>.
+      </li>
+
+      <li class="R">A Data-Integration Analysis on Road Emissions and Traffic Patterns. 
+      <b>To be publised in</b> <i>SMC 2020 proceedings in a CCIS Springer volume</i> .
+      </li>
+      
+      <li class="R">An Enhanced Percolation Method for Automatic Detection of Cracks in Concrete Bridges.
+      <b>To be publised in</b> <i>Journal of Advances in Civil Engineering</i> .
+      </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- <h1>Projects.</h1>
+    <table width="100%" border=1>
+    <tr><td></td></tr>
+    </table>-->
+
+  </div>
+  <!-- END: right column -->
+
+  <div id="footer">
+    <!-- you can put something here -->
+  </div>
+
+
+  </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-342639-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
 </html>
-    
