@@ -47,28 +47,29 @@ margin-right:520px;
 /*}*/
 
 #vanderbilt-logo{
-  height: 12%;
-  width: auto;
+  height: auto;
+  max-width: 20%;
   float: right;
+  margin-top:5px;
 }
 
 #networkscience-logo{
-  height: 12%;
-  width: auto;
+  height: auto;
+  max-width: 20%;
 }
 
 #wechatlogo{
-  height: 15%;
-  width: auto;
+  height: auto;
+  max-width: 30%;
 }
 
 #yuwang-img{
   display:block;
-  margin:10px;
+  margin:20px;
   margin-top:20px;
   margin-bottom:30px;
-  height: 30%;
-  width: 80%;
+  height: auto;
+  max-width: 80%;
 }
 
 
